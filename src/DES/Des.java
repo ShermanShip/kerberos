@@ -72,6 +72,7 @@ public class Des extends Feistel {
 			else
 				Rs += str.charAt(Constant.IP_Table[i]);
 		}
+
 		
 		for(int i = 0; i < number; i++){	//16ÂÖ¼ÓÃÜ
 			String Fstr = F(Rs,key[i]);
